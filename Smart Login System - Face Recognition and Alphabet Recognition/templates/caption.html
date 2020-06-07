@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Caption image</title>
+</head>
+<body>
+	<h1>Caption image</h1>
+	<form method="POST" action="/caption_img" enctype="multipart/form-data">
+		
+		<input type="file" name="userfile" placeholder="Your encodings are">
+		<input type="submit">
+	</form>
+	{% if your_result %}
+
+	{{ your_result['caption'] }}
+
+	{% endif %}
+	
+</body>
+</html>
