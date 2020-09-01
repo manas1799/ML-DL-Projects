@@ -1,4 +1,4 @@
-This is a complete file for the project – Smart login System coded in Python and Flask.
+This is a complete file for the project â€“ Smart login System coded in Python and Flask.
 
 It can do two things :
 
